@@ -28,7 +28,7 @@ It scans the database and an array containing the last 100 added meme details, m
 
 <br>
 
-* > __/memes/<id>__
+* > __/memes/id__
 
 Returns the meme with the specified id.
 
