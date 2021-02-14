@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+#tsparticles canvas{
+    position: fixed;
+    width: 100%;
+    height: 1000vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.myform{
+  border: 2px solid white;
+  padding: 2%;
+}
+
+.Outer {
+  align-items: center;
+  margin: auto;
+  padding:1%;
+}
+.App {
+  text-align: center;
+  width: 40%;
+  min-width: 350px;
+  padding:1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img
+{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:1%;
+}
+.MemeBox
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:1%;
+  margin: 2%;
+  border: 2px solid black;
+  background-color: #B0E0E6;
+}
+.Name
+{
+  font-size: 3vh;
+  font-weight: bold;
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 1%;
+}
+.Name2
+{
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 1%;
+  color: white;
+}
+.Name3
+{
+  font-size: 3vh;
+  font-weight: bold;
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 1%;
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

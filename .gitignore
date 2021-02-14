@@ -1,0 +1,7 @@
+.netlify
+.env
+
+**/__snapshots__
+.vscode/
+
+node_modules/
