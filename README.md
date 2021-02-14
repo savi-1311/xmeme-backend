@@ -1,4 +1,4 @@
-# Rate-It-Backend 
+# X-Meme 
 
 
 The Backend Website for API calls is hosted [Here](http://xmeme-backend-savi.herokuapp.com/)
