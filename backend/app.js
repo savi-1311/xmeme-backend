@@ -166,6 +166,12 @@ app.post('/memes', function(req,res,next){
 });
 
 
+app.get('/pipeline', function(req,res,next){
+	res.send("Hello World!");
+	}
+	);
+
+
 app.get('/memes/:id', function(req,res,next){
 	mongo.connect(url, function(err,client)
 	{
